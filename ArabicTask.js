@@ -1245,7 +1245,7 @@ function GoodbyeScreenRoutineBegin(snapshot) {
     }).join('\n')
     
     // Add the UTF-8 BOM (\uFEFF) to the very beginning of the file
-    let data = '\uFEFF' + csvString;
+    //let data = '\uFEFF' + csvString;
     
     // Send data to OSF via DataPipe
     console.log('Saving data...');

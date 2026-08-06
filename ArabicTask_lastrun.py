@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.3),
-    on August 06, 2026, at 10:45
+    on August 06, 2026, at 11:26
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -132,7 +132,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version=expVersion,
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='C:\\Users\\HP\\Downloads\\MASTER RESEARCH\\Arabic Task using OSF\\ArabicTask_lastrun.py',
+        originPath='C:\\Users\\HP\\Downloads\\MASTER RESEARCH\\Ar_L2\\ArabicTask_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
