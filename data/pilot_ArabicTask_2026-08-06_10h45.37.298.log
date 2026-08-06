@@ -1,0 +1,107 @@
+4.5464 	INFO 	Loaded monitor calibration from ['2026_06_24 03:29']
+4.9333 	INFO 	Using renderer 'NVIDIA GeForce MX250/PCIe/SSE2' for graphics
+4.9333 	INFO 	OpenGL version supported by driver is 4..
+4.9602 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D451FF9780>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D451FF9720>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color='beb0df', colorSpace='hex', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001D4520B4D30>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.9833 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='background.jpg', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2.27666667, 1.28      ]), texRes=128, units='height', win=Window(...))
+4.9833 	EXP 	window1: backgroundImage = 'background.jpg'
+4.9837 	EXP 	window1: backgroundFit = 'contain'
+5.0069 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0211 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0359 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0503 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0649 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0797 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.0945 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1105 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1245 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1383 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1528 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1672 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1807 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1947 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2085 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2230 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2371 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2511 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2651 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2791 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2935 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3083 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3226 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3369 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3510 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3655 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3800 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3936 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3940 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.3955 	DEBUG 	Upload of Texture Font fontname complete
+5.4155 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4331 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4335 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.4354 	DEBUG 	Upload of Texture Font fontname complete
+5.5795 	INFO 	keyboard.Keyboard is using ptb backend.
+5.5795 	EXP 	ArabicTask: status = STARTED
+5.6472 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-0.23137255, -0.34117647, -0.02745098]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Broadway', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='Arabic', name='textWelcome', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.6512 	EXP 	Created polygonStart = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='hex', contrast=None, depth=-3.0, draggable=False, fillColor='b6a7da', fillColorSpace='hex', fillRGB=array([0.42745098, 0.30980392, 0.70980392]), interpolate=False, lineColor='#b6a7da', lineColorSpace='hex', lineRGB=array([0.42745098, 0.30980392, 0.70980392]), lineWidth=2.0, name='polygonStart', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.35, 0.35]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+5.6607 	EXP 	Created text_ButtonStart = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Broadway', fontFiles=[], height=np.float64(0.045), italic=False, languageStyle='Arabic', name='text_ButtonStart', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='START\nﺍﺪﺑﺇ', units='height', win=Window(...), wrapWidth=1)
+5.7026 	EXP 	Created baseline_typing = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-0.23137255, -0.34117647, -0.02745098]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Bahnschrift', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='Arabic', name='baseline_typing', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.7066 	EXP 	Created polygonBaseline = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='hex', contrast=None, depth=-1.0, draggable=False, fillColor='b6a7da', fillColorSpace='hex', fillRGB=array([0.42745098, 0.30980392, 0.70980392]), interpolate=True, lineColor='#b6a7da', lineColorSpace='hex', lineRGB=array([0.42745098, 0.30980392, 0.70980392]), lineWidth=2.0, name='polygonBaseline', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.35, 0.35]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+5.7142 	EXP 	Created textBaseline_Start = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Broadway', fontFiles=[], height=np.float64(0.045), italic=False, languageStyle='Arabic', name='textBaseline_Start', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='Begin\nﺍﺪﺑﺇ', units='height', win=Window(...), wrapWidth=1)
+5.7435 	EXP 	Created baseline_Paragraph = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-0.23137255, -0.34117647, -0.02745098]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Bahnschrift', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='Arabic', name='baseline_Paragraph', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.7533 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7545 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7556 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7565 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7571 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7577 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7587 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7596 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7602 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7616 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7631 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7645 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7657 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7678 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7695 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7699 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.7719 	DEBUG 	Upload of Texture Font fontname complete
+5.7747 	EXP 	Created textClocktimer = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 0.09019608, -1.        , -1.        ]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Broadway', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textClocktimer', opacity=1, ori=0.0, pos=array([0.6, 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+5.7766 	EXP 	Created text_Taskquestion = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-0.23137255, -0.34117647, -0.02745098]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Broadway', fontFiles=[], height=0.05, italic=False, languageStyle='Arabic', name='text_Taskquestion', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+5.7864 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7868 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.7884 	DEBUG 	Upload of Texture Font fontname complete
+5.7910 	EXP 	Created TaskCounter = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-0.23137255, -0.34117647, -0.02745098]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TaskCounter', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+5.8072 	EXP 	Created text_Goodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-0.23137255, -0.34117647, -0.02745098]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Broadway', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='text_Goodbye', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.2027 	EXP 	textbox_baseline_input: autoLog = True
+0.2027 	EXP 	textbox_answer: autoLog = True
+0.2275 	EXP 	textWelcome: autoDraw = True
+0.2275 	EXP 	polygonStart: autoDraw = True
+0.2275 	EXP 	text_ButtonStart: autoDraw = True
+1.0317 	DATA 	Mouse: Left button down, pos=(390,136)
+1.0603 	EXP 	textWelcome: autoDraw = False
+1.0603 	EXP 	polygonStart: autoDraw = False
+1.0603 	EXP 	text_ButtonStart: autoDraw = False
+1.0603 	EXP 	baseline_typing: autoDraw = True
+1.0603 	EXP 	polygonBaseline: autoDraw = True
+1.0603 	EXP 	textBaseline_Start: autoDraw = True
+1.1148 	DATA 	Mouse:  Left button up, pos=(390,136)
+1.4643 	DATA 	Mouse: Left button down, pos=(390,136)
+1.4943 	EXP 	baseline_typing: autoDraw = False
+1.4943 	EXP 	polygonBaseline: autoDraw = False
+1.4943 	EXP 	textBaseline_Start: autoDraw = False
+1.4943 	EXP 	baseline_Paragraph: autoDraw = True
+1.4943 	EXP 	textbox_baseline_input: autoDraw = True
+1.4943 	EXP 	textClocktimer: autoDraw = True
+1.5522 	DATA 	Mouse:  Left button up, pos=(390,136)
+2.5999 	EXP 	Device response: <KeyPress from None: t=2.5867352999921422, value=escape, duration=None>
+2.6049 	DATA 	Keypress: escape
+2.7302 	EXP 	Device response: <KeyPress from None: t=2.5867352999921422, value=escape, duration=0.13855240002158098>
+2.7302 	EXP 	ArabicTask: status = STOPPED
+2.7436 	EXP 	baseline_Paragraph: autoDraw = False
+2.7436 	EXP 	textbox_baseline_input: autoDraw = False
+2.7436 	EXP 	textClocktimer: autoDraw = False
+2.7461 	EXP 	ArabicTask: status = STOPPED
+2.7536 	INFO 	saved data to 'C:\\Users\\HP\\Downloads\\MASTER RESEARCH\\Arabic Task using OSF\\data\\pilot_ArabicTask_2026-08-06_10h45.37.298.csv'
+2.7542 	INFO 	saved data to C:\Users\HP\Downloads\MASTER RESEARCH\Arabic Task using OSF\data\pilot_ArabicTask_2026-08-06_10h45.37.298.psydat
+2.9468 	DEBUG 	Saving data for ArabicTask ExperimentHandler
+2.9526 	INFO 	Stopping keyboard key buffers.

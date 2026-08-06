@@ -1,0 +1,8 @@
+16.8517 	INFO 	Loaded monitor calibration from ['2026_06_24 03:29']
+17.9171 	INFO 	Using renderer 'NVIDIA GeForce MX250/PCIe/SSE2' for graphics
+17.9172 	INFO 	OpenGL version supported by driver is 4..
+17.9820 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001784D9739D0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001784D973970>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color='beb0df', colorSpace='hex', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001784DA3EF80>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.9840 	ERROR 	Couldn't find image background.jpg; check path? (tried: C:\Users\HP\Downloads\MASTER RESEARCH\Arabic Task using OSF\background.jpg)
+18.0674 	DEBUG 	Saving data for ArabicTask ExperimentHandler
+18.0687 	INFO 	saved data to C:\Users\HP\Downloads\MASTER RESEARCH\Arabic Task using OSF\data\pilot_ArabicTask_2026-08-06_09h48.29.231.psydat
+18.0698 	INFO 	saved data to 'C:\\Users\\HP\\Downloads\\MASTER RESEARCH\\Arabic Task using OSF\\data\\pilot_ArabicTask_2026-08-06_09h48.29.231.csv'
