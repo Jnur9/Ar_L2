@@ -791,7 +791,7 @@ function ParagraphTypingRoutineBegin(snapshot) {
     // keep track of whether this Routine was forcibly ended
     routineForceEnded = false;
     ParagraphTypingClock.reset(routineTimer.getTime());
-    routineTimer.add(5.000000);
+    routineTimer.add(30.000000);
     ParagraphTypingMaxDurationReached = false;
     // update component parameters for each repeat
     textbox_baseline_input.setText('');
@@ -835,7 +835,7 @@ function ParagraphTypingRoutineEachFrame() {
     if (baseline_Paragraph.status === PsychoJS.Status.STARTED) {
     }
     
-    frameRemains = 0.0 + 5 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    frameRemains = 0.0 + 30 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
     if (baseline_Paragraph.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       // keep track of stop time/frame for later
       baseline_Paragraph.tStop = t;  // not accounting for scr refresh
@@ -860,7 +860,7 @@ function ParagraphTypingRoutineEachFrame() {
     if (textbox_baseline_input.status === PsychoJS.Status.STARTED) {
     }
     
-    frameRemains = 0.0 + 5 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    frameRemains = 0.0 + 30 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
     if (textbox_baseline_input.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       // keep track of stop time/frame for later
       textbox_baseline_input.tStop = t;  // not accounting for scr refresh
@@ -874,7 +874,7 @@ function ParagraphTypingRoutineEachFrame() {
     // *textClocktimer* updates
     if (t >= 0.0 && textClocktimer.status === PsychoJS.Status.NOT_STARTED) {
       // update params
-      textClocktimer.setText(util.round((5 - t)).toString(), false);
+      textClocktimer.setText(util.round((30 - t)).toString(), false);
       // keep track of start time/frame for later
       textClocktimer.tStart = t;  // (not accounting for frame time here)
       textClocktimer.frameNStart = frameN;  // exact frame index
@@ -886,10 +886,10 @@ function ParagraphTypingRoutineEachFrame() {
     // if textClocktimer is active this frame...
     if (textClocktimer.status === PsychoJS.Status.STARTED) {
       // update params
-      textClocktimer.setText(util.round((5 - t)).toString(), false);
+      textClocktimer.setText(util.round((30 - t)).toString(), false);
     }
     
-    frameRemains = 0.0 + 5 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    frameRemains = 0.0 + 30 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
     if (textClocktimer.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       // keep track of stop time/frame for later
       textClocktimer.tStop = t;  // not accounting for scr refresh
@@ -941,7 +941,7 @@ function ParagraphTypingRoutineEnd(snapshot) {
         routineTimer.reset();} else if (ParagraphTypingMaxDurationReached) {
         ParagraphTypingClock.add(ParagraphTypingMaxDuration);
     } else {
-        ParagraphTypingClock.add(5.000000);
+        ParagraphTypingClock.add(30.000000);
     }
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
