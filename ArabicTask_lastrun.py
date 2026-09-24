@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.3),
-    on August 06, 2026, at 11:26
+    on September 24, 2026, at 10:35
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -939,7 +939,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Run Routine "ParagraphTyping" ---
     thisExp.currentRoutine = ParagraphTyping
     ParagraphTyping.forceEnded = routineForceEnded = not continueRoutine
-    while continueRoutine and routineTimer.getTime() < 5.0:
+    while continueRoutine and routineTimer.getTime() < 30.0:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -970,7 +970,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if baseline_Paragraph is stopping this frame...
         if baseline_Paragraph.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > baseline_Paragraph.tStartRefresh + 5-frameTolerance:
+            if tThisFlipGlobal > baseline_Paragraph.tStartRefresh + 30-frameTolerance:
                 # keep track of stop time/frame for later
                 baseline_Paragraph.tStop = t  # not accounting for scr refresh
                 baseline_Paragraph.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1004,7 +1004,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if textbox_baseline_input is stopping this frame...
         if textbox_baseline_input.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > textbox_baseline_input.tStartRefresh + 5-frameTolerance:
+            if tThisFlipGlobal > textbox_baseline_input.tStartRefresh + 30-frameTolerance:
                 # keep track of stop time/frame for later
                 textbox_baseline_input.tStop = t  # not accounting for scr refresh
                 textbox_baseline_input.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1033,12 +1033,12 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if textClocktimer is active this frame...
         if textClocktimer.status == STARTED:
             # update params
-            textClocktimer.setText(str(round(5-t)), log=False)
+            textClocktimer.setText(str(round(30-t)), log=False)
         
         # if textClocktimer is stopping this frame...
         if textClocktimer.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > textClocktimer.tStartRefresh + 5-frameTolerance:
+            if tThisFlipGlobal > textClocktimer.tStartRefresh + 30-frameTolerance:
                 # keep track of stop time/frame for later
                 textClocktimer.tStop = t  # not accounting for scr refresh
                 textClocktimer.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1098,7 +1098,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     elif ParagraphTyping.forceEnded:
         routineTimer.reset()
     else:
-        routineTimer.addTime(-5.000000)
+        routineTimer.addTime(-30.000000)
     thisExp.nextEntry()
     
     # set up handler to look after randomisation of conditions etc

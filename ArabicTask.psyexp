@@ -325,7 +325,7 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="30" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="تعد القراءة غذاء للعقل والروح. فهي ليست مجرد هواية نقضي بها اوقات فراغنا بل مفتاح يفتح لنا أبواب المعرفة. من خلال صفحات الكتب نسافر عبر الزمن لنتعرف على حضارات الأمم السابقة ونطوف حول العالم دون أن نتحرك من أماكننا. تتجلى أهمية القراءة في توسيع مدارك الإنسان وتطوير مهارات التفكير لديه كما تزيد من حصيلته اللغوية وتقدم له حلولا مبتكرة للمشكلات." valType="str" updates="constant" name="text"/>
         <Param val="height" valType="str" updates="None" name="units"/>
@@ -368,7 +368,7 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="30" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="" valType="str" updates="constant" name="text"/>
         <Param val="height" valType="str" updates="None" name="units"/>
@@ -394,9 +394,9 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="30" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="$str(round(5-t))" valType="str" updates="set every frame" name="text"/>
+        <Param val="$str(round(30-t))" valType="str" updates="set every frame" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
